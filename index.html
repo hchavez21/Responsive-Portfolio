@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-us">
-        >
+        
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <title>Hugo Chavez</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 
  
@@ -18,10 +20,13 @@
         <header>
                 <h1 class="title_box">Hugo Chavez</h1>
                     <nav class="navbar">
-                             
-                              <a class="about" href="index.html">About |</a> 
-                              <a class="portfolio" href="portfolio.html">Portfolio |</a>
-                              <a class="contact" href="contact.html">Contact |</a>
+                        <label for="toggle">&#9776;</label>
+                        <input type="checkbox" id="toggle"/>
+                             <div class="drop">
+                              <a class="about" href="index.html">About|</a> 
+                              <a class="portfolio" href="portfolio.html">Portfolio|</a>
+                              <a class="contact" href="contact.html">Contact</a>
+                              </div>
                              
                      </nav>
         </header>
@@ -34,7 +39,7 @@
          <h2 class="aboutme">About Me</h2>
     <hr/>
 
-    <img src="assets/images/hugo.jpg" height="175" width="175" alt="ME" class="img1">
+    <img src="assets/images/hugo.jpg" alt="ME" class="img1">
 
     <p>As you have seen from the title, my name is Hugo. A lot of people ask me if that is my "bar" name, but no it is actually my given name.
         My last name is Chavez; another hard thing to believe - Hugo Chavez Jr - and again no relation to the ex-president of
